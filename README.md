@@ -37,6 +37,10 @@ https://localhost:[yourLocalHostsNumberId]/api/Aggregate?location=Athens&originC
 **Example Result**:
 ```json
 {"location":"Athens","weather":{"latitude":38.0,"longitude":23.0625,"daily_units":{"time":"iso8601","temperature_2m_max":"°C","temperature_2m_min":"°C","precipitation_sum":"mm"},"daily":{"time":["2025-01-11T00:00:00","2025-01-12T00:00:00","2025-01-13T00:00:00","2025-01-14T00:00:00","2025-01-15T00:00:00","2025-01-16T00:00:00","2025-01-17T00:00:00"],"temperature_2m_max":[11.0,11.8,5.6,2.3,3.7,4.2,4.6],"temperature_2m_min":[6.5,6.0,2.5,1.2,1.5,1.3,0.8],"precipitation_sum":[0.0,7.3,48.0,24.1,0.1,0.0,0.0]}},"flights":{"time":1736589405,"states":[["3004c2","NOS6571 ","Italy",1736589405,1736589405,24.0701,37.7113,11277.6,false,267.56,130.24,0,null,11376.66,"0430",false,0]]}}
+
+
+
+
 ```
 
 ## Setup
